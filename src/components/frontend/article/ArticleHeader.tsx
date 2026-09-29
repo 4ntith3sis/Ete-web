@@ -1,0 +1,2 @@
+import type { Article } from "@/types/article";
+export function ArticleHeader({ article }: { article: Article }) { return <header className="article-detail-header"><span className="blog-category-tag">{article.category}</span><h1>{article.title}</h1><div className="article-meta"><span><i className="fa-solid fa-user-pen" /> {article.author}</span><span><i className="fa-solid fa-calendar-days" /> {article.publishedDate}</span><span><i className="fa-solid fa-clock" /> {article.readingTime}</span></div></header>; }

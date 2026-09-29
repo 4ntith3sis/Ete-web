@@ -1,0 +1,9 @@
+export { Hero } from "./Hero";
+export { Benefits } from "./Benefits";
+export { Services } from "./Services";
+export { HowItWorks } from "./HowItWorks";
+export { Testimonials } from "./Testimonials";
+export { ClosingCTA } from "./ClosingCTA";
+export { IndonesiaBanner } from "./IndonesiaBanner";
+export { ClientsMarquee } from "./ClientsMarquee";
+export { MediaTrust } from "./MediaTrust";
