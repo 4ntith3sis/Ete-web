@@ -1103,6 +1103,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 16px;
   cursor: pointer;
   user-select: none;
 }
@@ -1115,25 +1116,11 @@ button {
   line-height: 1.35;
 }
 
-.faq-toggle-icon {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: rgba(12, 23, 54, 0.07);
-  color: var(--navy-800);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.9rem;
-  transition: var(--transition);
+.faq-toggle {
+  color: var(--navy-900);
+  font-size: 0.85rem;
   flex-shrink: 0;
-  border: 1px solid rgba(12, 23, 54, 0.08);
-}
-
-.faq-item.active .faq-toggle-icon {
-  background: var(--yellow-400);
-  color: var(--navy-950);
-  transform: rotate(180deg);
+  transition: var(--transition);
 }
 
 .faq-body {
