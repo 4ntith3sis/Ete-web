@@ -1,7 +1,7 @@
 export const offices = [
   ["Jakarta", "Jl. TB Simatupang No. 36, Cilandak, Jakarta Selatan 12430", "021-2940-0153", "KANTOR PUSAT", "photo-1486406146926-c627a92ad1ab"],
   ["Surabaya", "Spazio Tower Lt. 8, Jl. Mayjend Yono Soewoyo, Surabaya Barat 60226", "031-9920-1188", "BRANCH OFFICE", "photo-1554224155-8d04cb21cd6c"],
-  ["Bandung", "Jl. Cihampelas No. 201A, Coblong, Kota Bandung, Jawa Barat 40131", "022-3209-3292", "BRANCH OFFICE", "photo-1450133064473-71024230f91b"],
+  ["Bandung", "Jl. Cihampelas No. 201A, Coblong, Kota Bandung, Jawa Barat 40131", "022-3209-3292", "BRANCH OFFICE", "photo-1486406146926-c627a92ad1ab"],
 ];
 export const contactFaqs = [
   ["Apakah konsultasi awal di EasyTax benar-benar gratis?", "Ya, konsultasi awal via WhatsApp atau telepon 100% gratis. Tim konsultan kami siap mendengarkan kebutuhan bisnis Anda, memberikan estimasi biaya, dan merumuskan langkah penanganan yang tepat."],
