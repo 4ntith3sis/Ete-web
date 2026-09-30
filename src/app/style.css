@@ -121,9 +121,9 @@ button {
   align-items: center;
   gap: 8px;
   padding: 6px 16px;
-  background: rgba(255, 200, 44, 0.12);
-  color: #d97706;
-  border: 1px solid rgba(255, 200, 44, 0.35);
+  background: rgba(245, 197, 24, 0.12);
+  color: #0a1628;
+  border: 1px solid #f5c518;
   border-radius: var(--radius-full);
   font-size: 0.85rem;
   font-weight: 700;
@@ -1554,7 +1554,11 @@ button {
   gap: 8px;
   font-size: 0.82rem;
   font-weight: 800;
-  color: var(--yellow-500);
+  color: #0a1628;
+  background: rgba(245, 197, 24, 0.12);
+  border: 1px solid #f5c518;
+  border-radius: var(--radius-full);
+  padding: 6px 16px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-bottom: 8px;
@@ -1593,9 +1597,9 @@ button {
 
 .clients-badge-pill {
   display: inline-block;
-  background: rgba(255, 200, 44, 0.12);
-  color: var(--navy-800);
-  border: 1px solid rgba(255, 200, 44, 0.35);
+  background: rgba(245, 197, 24, 0.12);
+  color: #0a1628;
+  border: 1px solid #f5c518;
   font-size: 0.8rem;
   font-weight: 800;
   letter-spacing: 0.15em;
