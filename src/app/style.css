@@ -1554,11 +1554,7 @@ button {
   gap: 8px;
   font-size: 0.82rem;
   font-weight: 800;
-  color: #0a1628;
-  background: rgba(245, 197, 24, 0.12);
-  border: 1px solid #f5c518;
-  border-radius: var(--radius-full);
-  padding: 6px 16px;
+  color: var(--yellow-500);
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-bottom: 8px;

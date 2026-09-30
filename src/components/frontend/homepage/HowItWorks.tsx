@@ -93,7 +93,7 @@ export function HowItWorks() {
         @media (min-width: 1024px) { .hiw-index-grid { grid-template-columns: repeat(12, minmax(0,1fr)); gap: 32px; } }
         .hiw-index-left { display: flex; flex-direction: column; justify-content: flex-start; }
         @media (min-width: 1024px) { .hiw-index-left { grid-column: span 5 / span 5; } }
-        .hiw-index-eyebrow { display: inline-block; align-self: flex-start; padding: 6px 16px; background: rgba(245,197,24,.12); border: 1px solid #f5c518; border-radius: 9999px; font-size: 16px; font-weight: 800; color: #0a1628; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 6px; }
+        .hiw-index-eyebrow { font-size: 16px; font-weight: 800; color: #0c1736; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 6px; }
         @media (min-width: 640px) { .hiw-index-eyebrow { margin-bottom: 12px; } }
         .hiw-index-heading { font-size: 28px; font-weight: 900; color: #0c1736; line-height: 1.25; letter-spacing: -0.02em; margin: 0; }
         @media (min-width: 640px) { .hiw-index-heading { font-size: 38px; line-height: 1.12; } }
