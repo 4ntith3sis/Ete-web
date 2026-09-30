@@ -3,6 +3,7 @@ import { PricingCard } from "../cards/PricingCard";
 import { SectionHeading } from "../shared/SectionHeading";
 
 export function PricingPackages({ service }: { service: Service }) {
+  if (!service.pricing || service.pricing.length === 0) return null;
   return (
     <section className="service-pricing">
       <div className="container">
@@ -12,8 +13,8 @@ export function PricingPackages({ service }: { service: Service }) {
           description="Pilih paket yang sesuai kebutuhan bisnis Anda."
         />
         <div className="service-packages">
-          {service.pricingPackages.map((item) => (
-            <PricingCard key={item.name} pkg={item} />
+          {service.pricing.map((item) => (
+            <PricingCard key={item.name} {...item} />
           ))}
         </div>
       </div>

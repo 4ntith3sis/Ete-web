@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "EasyTax - Jasa Konsultan Pajak dan Akuntansi Perusahaan",
   description:
     "EasyTax adalah jasa konsultan pajak dan akuntansi perusahaan terpercaya di Indonesia.",
+  icons: { icon: "/images/favicon.webp" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
