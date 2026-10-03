@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "npx tsc --ignoreConfig src/lib/tax-calculator/calculate.ts src/lib/tax-calculator/progressive.ts src/lib/tax-calculator/format.ts src/lib/tax-calculator/validation.ts src/lib/tax-calculator/pph21-rules.ts src/lib/tax-calculator/result.ts src/lib/tax-calculator/taxConfig.ts --outDir node_modules/.tmp-tax --module nodenext --target es2022 --moduleResolution nodenext --skipLibCheck && node tests/tax.test.cjs && node tests/pph21-comprehensive.test.cjs"
   },
   "dependencies": {
     "next": "latest",

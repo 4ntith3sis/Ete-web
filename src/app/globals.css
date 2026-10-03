@@ -127,3 +127,101 @@
 .slug-rating-stats { background: #f4f7fb; }
 #keunggulan.service-advantages { border-top: 0; }
 @media (max-width: 768px) { .homepage-rating-stats { padding-top: 68px; padding-bottom: 24px; } }
+
+
+.tax-workspace-desc { color: #64748b; margin-bottom: 24px; }
+.tax-form { display: grid; row-gap: 10px; max-width: 620px; }
+.tax-worksheet .tax-form { max-width: 100%; }
+.tax-form-section-title { color: var(--navy-900); font: 900 .9rem var(--font-heading); margin: 6px 0 0; padding-bottom: 4px; border-bottom: 1px solid var(--border-color); }
+.tax-field-row { display: grid; grid-template-columns: minmax(110px, 180px) minmax(0, 1fr); column-gap: 16px; align-items: start; }
+.tax-field-row.is-center { align-items: center; }
+.tax-field-row.is-center .tax-field-label { padding-top: 0; }
+.tax-field-label { color: var(--navy-950); font-size: .82rem; font-weight: 700; padding-top: 9px; }
+.tax-field-control { display: grid; gap: 4px; min-width: 0; max-width: 360px; }
+.tax-field-control input, .tax-field-control select { width: 100%; padding: 6px 10px; border: 1px solid #cbd5e1; border-radius: 8px; color: var(--navy-950); background: #fff; font: 400 .85rem var(--font-body); height: 34px; }
+.tax-field-control input:focus, .tax-field-control select:focus { outline: 2px solid var(--yellow-500); outline-offset: 1px; border-color: var(--navy-900); }
+.tax-field-control select { padding-right: 34px; }
+.tax-result-empty { display: none; }
+.tax-readonly { padding: 6px 10px; height: 34px; display: flex; align-items: center; box-sizing: border-box; border: 1px dashed #cbd5e1; border-radius: 12px; color: var(--navy-900); font-weight: 800; background: #f8fafc; }
+.tax-field-help { color: #94a3b8; font-weight: 400; }
+.tax-field-error { color: #ef4444; font-weight: 700; }
+.tax-form-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; } .tax-form-actions .btn { padding: 10px 22px; font-size: .88rem; }
+.tax-result { margin-top: 0; padding: 14px 16px; border-radius: var(--radius-xl); background: #f4f7fb; border: 1px solid var(--border-color); }
+.tax-result h2 { color: var(--navy-950); font: 900 1rem var(--font-heading); margin: 0 0 12px; }
+.tax-result dl { margin: 0; display: grid; gap: 6px; }
+.tax-result-row { display: flex; justify-content: space-between; gap: 16px; padding-bottom: 6px; border-bottom: 1px solid #e2e8f0; color: #475569; font-size: .85rem; }
+.tax-result-row dd { margin: 0; color: var(--navy-900); font-weight: 800; text-align: right; }
+.tax-result-row.emphasis { font-weight: 900; }
+.tax-result-row.emphasis dt { color: var(--navy-950); }
+.tax-result-row.emphasis dd { color: var(--navy-950); font-size: 1rem; }
+.tax-result-note { color: #94a3b8; font-size: .8rem; margin: 14px 0 0; }
+.btn-outline-navy { border: 1px solid var(--navy-900); color: var(--navy-900); background: transparent; }
+.btn-outline-navy:hover { background: var(--navy-900); color: #fff; }
+
+
+.tax-page { padding: 20px 0 64px; background: #fff; }
+.tax-workspace { max-width: 980px; margin: 0 auto; border: 1px solid var(--border-color); border-radius: var(--radius-xl); background: #fff; box-shadow: var(--shadow-sm); overflow: hidden; }
+.tax-workspace-top { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; padding: 12px 18px; background: var(--navy-900); }
+.tax-workspace-brand { display: flex; align-items: center; gap: 12px; color: #fff; }
+.tax-workspace-icon { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 9px; font-size: 1rem; background: rgba(255,200,44,.15); color: var(--yellow-500); font-size: 1.2rem; }
+.tax-workspace-title { font: 800 1rem var(--font-heading); }
+.tax-calc-nav { margin: 0; }
+.tax-calc-nav-primary { display: flex; gap: 8px; flex-wrap: wrap; }
+.tax-calc-tab { padding: 5px 14px; border-radius: 9999px; border: 1px solid rgba(255,255,255,.25); background: transparent; color: #e2e8f0; font-size: .85rem; font-weight: 700; cursor: pointer; }
+.tax-calc-tab.active { background: var(--yellow-500); border-color: var(--yellow-500); color: var(--navy-900); }
+.tax-workspace-body { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+.tax-workspace-form { padding: 18px 20px; }
+.tax-workspace-form h1 { color: var(--navy-950); font: 900 1.15rem var(--font-heading); margin: 0 0 2px; } .tax-workspace-desc { font-size: .82rem; margin-bottom: 12px; }
+.tax-workspace-result { padding: 18px 20px; background: #f1f5f9; border-left: 1px solid var(--border-color); }
+.tax-result-empty { display: grid; place-items: center; gap: 12px; text-align: center; color: #94a3b8; padding: 60px 10px; }
+.tax-result-empty i { font-size: 2rem; color: #cbd5e1; }
+@media (max-width: 900px) { .tax-workspace-body { grid-template-columns: 1fr; } .tax-workspace-result { border-left: 0; border-top: 1px solid var(--border-color); } }
+@media (max-width: 768px) { .tax-page { padding: 16px 0 56px; } .tax-workspace-top { padding: 16px 18px; } .tax-workspace-form, .tax-workspace-result { padding: 22px 18px; } }
+@media (max-width: 640px) { .tax-field-row, .tax-field-row.is-center { grid-template-columns: 1fr; gap: 4px; } .tax-field-row .tax-field-label, .tax-field-row.is-center .tax-field-label { padding-top: 0; } }
+
+.tax-radio-group { display: flex; gap: 16px; align-items: center; min-height: 34px; }
+.tax-radio { display: inline-flex; align-items: center; gap: 6px; font-size: .85rem; font-weight: 700; color: var(--navy-900); cursor: pointer; }
+.tax-radio input { width: 14px; height: 14px; accent-color: var(--navy-900); }
+
+.tax-calc-more { position: relative; }
+.tax-calc-dropdown { position: absolute; right: 0; top: calc(100% + 6px); z-index: 20; min-width: 150px; display: grid; gap: 2px; padding: 6px; border: 1px solid var(--border-color); border-radius: 12px; background: #fff; box-shadow: 0 12px 28px rgba(11,23,42,.14); }
+.tax-calc-dropdown-item { text-align: left; padding: 8px 12px; border: 0; border-radius: 8px; background: transparent; color: var(--navy-900); font-size: .85rem; font-weight: 700; cursor: pointer; }
+.tax-calc-dropdown-item:hover { background: #f1f5f9; }
+.tax-calc-dropdown-item.active { background: var(--yellow-500); color: var(--navy-900); }
+.tax-calc-dropdown-item:focus-visible { outline: 2px solid var(--yellow-500); outline-offset: 1px; }
+@media (max-width: 640px) { .tax-calc-dropdown { left: 0; right: auto; } }
+
+.tax-ada-tidak { display: inline-flex; gap: 6px; }
+.tax-ada-tidak-btn { height: 34px; padding: 0 18px; border: 1px solid #cbd5e1; border-radius: 8px; background: #fff; color: var(--navy-900); font-size: .85rem; font-weight: 700; cursor: pointer; }
+.tax-ada-tidak-btn.active { background: var(--navy-900); border-color: var(--navy-900); color: #fff; }
+.tax-radio { line-height: 1; }
+.tax-radio input { margin: 0; width: 14px; height: 14px; }
+.tax-form + .tax-form { margin-top: 16px; }
+
+.tax-masa-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.tax-masa-row select { width: 100%; padding: 6px 10px; padding-right: 34px; border: 1px solid #cbd5e1; border-radius: 8px; background: #fff; font: 400 .85rem var(--font-body); height: 34px; color: var(--navy-950); }
+@media (max-width: 480px) { .tax-masa-row { grid-template-columns: 1fr; } }
+
+.tax-worksheet { width: 100%; margin: 20px 0 0; padding-inline: 32px; }
+@media (max-width: 900px) { .tax-worksheet { padding-inline: 18px; } }
+@media (max-width: 640px) { .tax-worksheet { padding-inline: 12px; } }
+.tax-actions-center { display: flex; justify-content: center; gap: 10px; margin-top: 16px; }
+
+
+
+.tax-worksheet .tax-field-row,
+.tax-worksheet .tax-field-row.is-center { grid-template-columns: minmax(0, 1fr) minmax(320px, 38%); column-gap: 24px; align-items: center; }
+.tax-worksheet .tax-field-label,
+.tax-worksheet .tax-field-row .tax-field-label { padding-top: 0; }
+.tax-worksheet .tax-field-control { max-width: 100%; }
+@media (max-width: 900px) { .tax-worksheet { padding-inline: 20px; } .tax-worksheet .tax-field-row { grid-template-columns: minmax(0, 1fr) minmax(260px, 40%); } }
+@media (max-width: 640px) { .tax-worksheet { padding-inline: 14px; } .tax-worksheet .tax-field-row, .tax-worksheet .tax-field-row.is-center { grid-template-columns: 1fr; gap: 4px; } }
+
+.tax-field-control select, .tax-masa-row select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230a1628' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 32px;
+}

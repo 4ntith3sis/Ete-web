@@ -2,5 +2,5 @@ import eslint from "@eslint/js";
 
 export default [
   eslint.configs.recommended,
-  { ignores: [".next/**", "node_modules/**", "html + css easytax/**"] },
+  { ignores: [".next/**", "node_modules/**", "html + css easytax/**", "tests/**"] },
 ];
